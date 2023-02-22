@@ -33,7 +33,7 @@ Very dark blue: hsl(240, 100%, 5%)
 - Weights: 400, 700, 800
 
 
-I used grip because to build the hamburguer menu open and close toguether will be dificult with flex. the position of two elements toguether.
+I used grip because to build the hamburguer menu open and close toguether with flexbox it wasn't viable, the position of two elements toguether.
 
 tags:
 [picture](https://developer.mozilla.org/es/docs/Web/HTML/Element/picture)

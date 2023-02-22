@@ -33,13 +33,13 @@ body{
 .nav__brand{
     grid-area: logo;
 }
-.nav__hamburguer{
+.nav__hamburger{
     grid-area: icon;
 }
 .nav__icon{
     width: 100%;
 }
-.nav__hamburguer--close{
+.nav__hamburger--close{
     display: none;
 }
 /* main */
@@ -74,4 +74,42 @@ body{
     /* transform text lowercase in Uppercase */
     text-transform: uppercase;
     padding: .9em 2.5em;
+}
+/* sidebar */
+.sidebar{
+    background-color: var(--very-dark-blue);
+    color: #fff;
+    padding: 1em;
+}
+.sidebar__article{
+    border-bottom: 1px solid var(--grayish-blue);
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+}
+/* pseudo-class. to select the last element de tipe "sidebar__article" */
+.sidebar__article:first-of-type{
+    padding-top: 0;
+}
+.sidebar__article:last-of-type{
+    border:none;
+    margin: 0;
+    /* background-color: tomato; */
+}
+.sidebar__title{
+    color: var(--soft-orange);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.sidebar__link{
+    /* this property is because I want to give margin  */
+    display:inline-block;
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: .8rem;
+}
+.sidebar__content{
+    line-height: 1.5;
+    color: var(--grayish-blue);
 }
