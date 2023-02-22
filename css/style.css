@@ -14,3 +14,31 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* outside container has to be hidde */
+    overflow: hidden;
+}
+.nav{
+    height: 80px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, max-content);
+    /* areas definition: 1st celda logo 2n icon */
+    grid-template-areas: "logo icon";
+}
+.nav__brand{
+    grid-area: logo;
+}
+.nav__hamburguer{
+    grid-area: icon;
+}
+.nav__icon{
+    width: 100%;
+}
+.nav__hamburguer--close{
+    display: none;
+}
